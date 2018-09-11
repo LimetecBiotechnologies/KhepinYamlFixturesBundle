@@ -1,14 +1,18 @@
 {
-    "name": "khepin/yaml-fixtures-bundle",
+    "name": "limetecbiotechnologies/yaml-fixtures-bundle",
     "type": "symfony-bundle",
     "description": "Symfony bundle for easy loading of YAML based fixtures.",
     "keywords": ["data fixtures doctrine yaml"],
-    "homepage": "https://github.com/khepin/KhepinYamlFixturesBundle",
+    "homepage": "https://github.com/LimetecBiotechnologies/KhepinYamlFixturesBundle",
     "license": "MIT",
     "authors": [
         {
             "name":  "Sébastien Armand",
             "email": "khepin@gmail.com"
+        },
+        {
+          "name":  "Arne von Appen",
+          "email": "arne.von.appen@web.de"
         }
     ],
     "require": {
