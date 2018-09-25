@@ -105,6 +105,7 @@ class YamlLoader
         $this->loadFixtureFiles();
         foreach ($this->fixture_files as $file) {
             $fixture_data = Yaml::parse(file_get_contents($file));
+            echo $file;
             // if nothing is specified, we use doctrine orm for persistence
             $persistence = isset($fixture_data['persistence']) ? $fixture_data['persistence'] : 'orm';
 
